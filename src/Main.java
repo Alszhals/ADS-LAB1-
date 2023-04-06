@@ -7,6 +7,7 @@ public class Main {
         Scanner sc= new Scanner(System.in);
         int n=sc.nextInt();
         BigInteger num = BigInteger.valueOf(n);
+        int hepl;
 
     }
 }
