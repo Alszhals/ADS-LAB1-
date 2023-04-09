@@ -13,7 +13,6 @@ public class Task6 {
             else{
                 return(a*findDegree(a,n-1));
             }
-
         }
     }
 
