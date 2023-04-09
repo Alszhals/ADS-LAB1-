@@ -5,7 +5,6 @@ public class Task10 {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
         int b= input.nextInt();
-
         System.out.print(gcd(a,b));
     }
     public static int gcd(int a, int b) {
