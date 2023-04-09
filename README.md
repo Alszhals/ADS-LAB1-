@@ -42,7 +42,7 @@ The Math.sqrt method is used to calculate the square root of n, which is used as
 
 The implementation of the findPrime function is correct and will correctly determine whether an input integer n is a prime number or not.
 ***
-```agsl
+```java
  public static boolean findPrime(int n) {
             if (n < 2) {
                 return false;
@@ -70,7 +70,7 @@ Finally, the function returns the computed factorial of n.
 
 The implementation of the findFactorial function is correct and will correctly calculate the factorial of an input integer n.
 ***
-```agsl
+```java
    public static int findFactorial(int n){
             if (n == 1) {
                 return 1;
@@ -101,7 +101,7 @@ The implementation of the fibonacci function is correct and will correctly calcu
 
 
 ***
-```agsl
+```java
 public static int fibonacci(int n) {
             if (n == 0) {
                 return 0;
@@ -126,7 +126,7 @@ Finally, the function returns the computed value of a raised to the power of n.
 
 The implementation of the findDegree function is correct and will correctly calculate the value of a raised to the power of n for the given input integers a and n. However, note that the function is not very efficient and can be slow for large values of n due to the repeated recursive calls. There are more efficient algorithms for computing powers, such as binary exponentiation.
 ***
-```agsl
+```java
   public static int findDegree(int a, int n) {
             if(n==0){
                 return 1;}
@@ -146,7 +146,7 @@ If the base case is not met, the function swaps the elements at the startIndex a
 
 The function then recursively calls itself with the input array, the startIndex increased by 1, and the endIndex decreased by 1. This continues until the base case is reached.
 ***
-```agsl
+```java
  public static void reverseArray(int[] array, int startIndex, int endIndex) {
             if (startIndex >= endIndex) {
                 return;
@@ -170,7 +170,7 @@ If the first character of the input string is not a digit, the function immediat
 
 The function continues to recursively call itself on smaller and smaller substrings of the input string until it either finds a non-digit character or reaches the end of the string.
 ***
-```agsl
+```java
 public static boolean checkDigits(String inputString) {
             if (inputString.isEmpty()) {
                 return true;
@@ -192,7 +192,7 @@ If k is not equal to 0 or n, the function recursively calls itself twice with n-
 
 The function continues to recursively call itself on smaller and smaller values of n and k until it reaches the base case of k=0 or k=n.
 ***
-```agsl
+```java
    public static int binomialCoeff(int n, int k) {
         if (k == 0 || k == n) {
             return 1;
@@ -206,7 +206,7 @@ The function continues to recursively call itself on smaller and smaller values 
 __Explanation:__
 If b is zero, then the GCD of a and b is a. Otherwise, the GCD of a and b is the same as the GCD of b and a % b. This recursive call is repeated until b is zero, which means the algorithm has found the GCD of a and b.
 ***
-```agsl
+```java
 public static int gcd(int a, int b) {
         if (b == 0) {
             return a;
