@@ -1,3 +1,11 @@
+/*
+@findeFactorial- function which is findeFactorial by using recursion
+@
+
+
+
+*/
+
 import java.util.*;
 import java.util.Scanner;
 import java.util.stream.*;
