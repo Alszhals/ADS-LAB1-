@@ -1,4 +1,9 @@
-import java.util.Scanner;
+/*
+@a*findDegree(a,n-1))- decrise the n till its 
+
+
+
+*/import java.util.Scanner;
 public class Task6 {
     public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
