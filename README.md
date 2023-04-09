@@ -114,7 +114,6 @@ public static int fibonacci(int n) {
         }
 ```
 ***
-
 ## task6
 __Explanation:__
 The function first checks if the input integer n is equal to 0. If n is equal to 0, it means that the value of a raised to the power of n is 1, so the function returns 1.
