@@ -1,3 +1,14 @@
+/*
+@fibonacci (n-1)+fibonacci(n-2)- decries the n till it's rich 1 and then give this number all the way back and find the value of input fibonacci element 
+
+
+*/
+
+
+
+
+
+
 import java.util.Scanner;
 import java.util.stream.*;
 import java.math.BigInteger;
