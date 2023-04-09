@@ -16,7 +16,6 @@ public class Task4 {
             if (n == 0) {
                 return 1;
             }
-
             return n * findFactorial(n - 1);
     }}
 
