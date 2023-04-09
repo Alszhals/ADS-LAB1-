@@ -10,13 +10,14 @@ public class Task4 {
 
         }
         public static int findFactorial(int n){
-            int fact =1;
-            for(int i=1;i<=n;i++){
-                fact=fact*i;
+            if (n == 1) {
+                return 1;
             }
-            System.out.print(fact+" ");
-            return fact;
-        }
-    }
+            if (n == 0) {
+                return 1;
+            }
+
+            return n * findFactorial(n - 1);
+    }}
 
 
