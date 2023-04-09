@@ -1,3 +1,10 @@
+/*
+@binomialCoeff(n - 1, k - 1) + binomialCoeff(n - 1, k) decrise till kis equal 0 or n
+
+*/
+
+
+
 import java.util.Scanner;
 public class Task9 {
     public static void main(String[] args) {
