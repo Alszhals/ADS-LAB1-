@@ -1,3 +1,14 @@
+/*
+@inputString.isEmpty()- check is the String empty
+@Character.isDigit(inputString.charAt(0)))- check is the first element digit 
+@return checkDigits(inputString.substring(1))- recall function to check next elements
+
+
+
+*/
+
+
+
 import java.util.Scanner;
 
 public class Task8 {
