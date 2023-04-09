@@ -1,3 +1,13 @@
+/*
+@size- the input element amount of array 
+@array-array
+@fisrt for loop  to fill the array 
+@secound for loop to print the each element of array 
+@  reverseArray(array, startIndex + 1, endIndex - 1)- swap the elemets till "startIndex " greater or equal to "endIndex"
+
+*/
+
+
 import java.util.Scanner;
 public class Task7 {
     public static void main(String[] args) {
