@@ -1,6 +1,19 @@
+/**
+@findeaverage- function findout average value
+@ n- array name
+@ l- array lenght
+@ return -gives back
+@ IntStream.of(n)- creating IntStream which is contain the element n
+@ average()-calculate the average number 
+@.orElse(Double.NaN)-return average value if it's exists
+
+*/
+
+
+
 import java.util.stream.*;
 public class Task2 {
-    public static double average(int[] n,int l){
+    public static double findeaverage(int[] n,int l){
         if(l==0){
             return n[0];
         }
