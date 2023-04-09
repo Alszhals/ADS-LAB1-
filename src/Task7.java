@@ -13,7 +13,7 @@ public class Task7 {
             }
     }
 
-        public static void reverseArray(int[] array, int startIndex, int endIndex) {
+    public static void reverseArray(int[] array, int startIndex, int endIndex) {
             if (startIndex >= endIndex) {
                 return;
             }
