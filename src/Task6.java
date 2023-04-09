@@ -11,7 +11,6 @@ public class Task6 {
             int n =sc.nextInt();
             System.out.println( findDegree(a, n));
         }
-
         public static int findDegree(int a, int n) {
             if(n==0){
                 return 1;}
