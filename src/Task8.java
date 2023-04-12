@@ -2,8 +2,8 @@
 @inputString.isEmpty()- check is the String empty
 @Character.isDigit(inputString.charAt(0)))- check is the first element digit 
 @return checkDigits(inputString.substring(1))- recall function to check next elements
-
-
+@charAt(0)- method in String class that returns certain char of string in this case first 
+@substring(1)- remove the first char of string and return it with out it 
 
 */
 
